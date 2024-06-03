@@ -1,0 +1,73 @@
+*{
+    background: black;
+}
+
+.app-name {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 50px;
+    margin: 20px auto;
+    border-bottom: 2px solid gray;
+    color: rgb(118, 213, 242);
+    width: 800px;
+    background: linear-gradient(to right, rgb(118, 213, 242), rgb(100, 181, 246));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+
+
+
+.text-center{
+    width: 800px;
+    padding-bottom: 10px;
+    align-items: right;
+}
+
+.row{
+    color: aliceblue;
+    border-bottom: 1px solid gray;
+    padding-bottom:10px;
+    margin: 10px 5px;
+  
+   
+    
+}
+
+.npButton{
+    min-width: 80px;
+    
+}
+
+input{
+    width: 100%;
+    background-color: rgb(66, 63, 63);
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+::placeholder{
+    color: white;
+    
+}
+.input-date{
+    color: white;
+}
+.items{
+    text-align: center;
+}
+
+.date{
+    color: white;
+    font-family: inherit;
+}
+
+.input-date::-webkit-calendar-picker-indicator {
+    filter: invert(25%) sepia(80%) saturate(2000%) hue-rotate(190deg) brightness(95%) contrast(90%);
+}
+
+
